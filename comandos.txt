@@ -1,0 +1,27 @@
+  498  mkdir 20230605-XimenaAlcaman
+  499  cd 20230605-XimenaAlcaman/
+  500  git init
+  501  git remote add origin https://github.com/zonnebloempje/20230605-XimenaAlcaman.git
+  502  git branch -M main
+  503  git remote -v
+  504  touch comandos.txt main.js index.html
+  505  ls
+  506  git add .
+  507  git commit -m 'commit 01 ximenaAlcaman'
+  508  git push origin main
+  509  git checkout -b feature
+  510  mkdir hardware software seguridadInformatica
+  511  ls
+  512  touch hardware/resumen.txt seguridadInformatica/resumen.txt software/resumen.txt
+  513  ls
+  514  git add .
+  515  ls
+  516  git status
+  517  git commit -m 'commit 2 ximenaAlcaman'
+  518  git push origin feature
+  519  git checkout main
+  520  mv main.js resumenHardware.txt
+  521  mv index.html resumenHardware.txt
+  522  vim resumenSoftware.txt
+  523  vim resumenHardware.txt
+  524  history

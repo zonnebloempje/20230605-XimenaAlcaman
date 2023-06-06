@@ -1,0 +1,5 @@
+Ejemplos de software:
+
+1. Visual Studio Code
+2. Spotify
+3. VLC media player
